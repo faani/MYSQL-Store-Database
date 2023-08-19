@@ -14,7 +14,7 @@ I have written different MYSQL queries using Store database with following outpu
 Syntax: select * from customers;
 
 
-Detail: select all columns from customer table
+Details: select all columns from customer table
 
 
 MYSQL queries output
