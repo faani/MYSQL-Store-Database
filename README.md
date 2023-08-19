@@ -1,4 +1,4 @@
-# MYSQL-Store-Database using MYSQL workbench
+# MYSQL-Store-Database queries using MYSQL workbench
 
 
 I have written different MYSQL queries using Store database with following output below
@@ -17,7 +17,7 @@ Syntax: select * from customers;
 Details: select all columns from customer table
 
 
-MYSQL queries output
+MYSQL query 1 output
 
 
 ![image](https://github.com/faani/MYSQL-Store-Database/assets/18075830/f1929ddb-90bd-443a-b75e-3b3a4b7b436b)
@@ -35,7 +35,7 @@ Details: select all columns from customer table where first name order by ascend
 
 
 
-MYSQL queries output
+MYSQL query 2 output
 
 
 
@@ -55,7 +55,7 @@ Details: select all columns from customer table where birth date greater than 19
 
 
 
-MYSQL queries output
+MYSQL query 3 output
 
 
 
@@ -75,7 +75,7 @@ Details: Select minimum and maximum quantity from order table
 
 
 
-MYSQL queries output
+MYSQL query 4 output
 
 
 
@@ -95,7 +95,7 @@ Details: Select all columns from customer table where city start with a
 
 
 
-MYSQL queries output
+MYSQL query 5 output
 
 
 
