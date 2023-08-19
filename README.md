@@ -1,24 +1,41 @@
-# MYSQL-Store-Database
+# MYSQL-Store-Database using MYSQL workbench
 
-I have created multiple MYSQL queries using Store database
 
+I have written different MYSQL queries using Store database with following output below
 
 
 ![image](https://github.com/faani/MYSQL-Store-Database/assets/18075830/0770e571-89c3-497a-8433-e95f90c79ad0)
 
 
+# Query 1
+
+
+
+Syntax: select * from customers;
+
+
+Detail: select all columns from customer table
+
 
 MYSQL queries output
-
-
-select all columns from customer table
 
 
 ![image](https://github.com/faani/MYSQL-Store-Database/assets/18075830/f1929ddb-90bd-443a-b75e-3b3a4b7b436b)
 
 
+# Query 2
 
-select all columns from customer table where first name order by ascending order
+
+
+Syntax: select * from customers order by first_name;
+
+
+
+Details: select all columns from customer table where first name order by ascending order
+
+
+
+MYSQL queries output
 
 
 
@@ -26,7 +43,19 @@ select all columns from customer table where first name order by ascending order
 
 
 
-select all columns from customer table where birth date greater than 1990-01-01
+# Query 3
+
+
+
+Syntax: select * from customers where birth_date>('1990-01-01');
+
+
+
+Details: select all columns from customer table where birth date greater than 1990-01-01
+
+
+
+MYSQL queries output
 
 
 
@@ -34,7 +63,19 @@ select all columns from customer table where birth date greater than 1990-01-01
 
 
 
-Select minimum and maximum quantity from order table
+# Query 4
+
+
+
+Syntax: select min(quantity), max(quantity) from order_items;
+
+
+
+Details: Select minimum and maximum quantity from order table
+
+
+
+MYSQL queries output
 
 
 
@@ -42,7 +83,19 @@ Select minimum and maximum quantity from order table
 
 
 
-Select all columns from customer table where city start with a
+# Query 5
+
+
+
+Syntax: select * from customers where city like('A%');
+
+
+
+Details: Select all columns from customer table where city start with a
+
+
+
+MYSQL queries output
 
 
 
