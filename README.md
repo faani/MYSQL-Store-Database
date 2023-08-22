@@ -1,5 +1,7 @@
 # MYSQL-Store-Database queries using MYSQL workbench
 
+MySQL is a relational database management system
+A relational database stores data in separate tables rather than putting all the data in one big storeroom. The database structure is organized into physical files optimized for speed
 
 I have written different MYSQL queries using Store database with following output below
 
